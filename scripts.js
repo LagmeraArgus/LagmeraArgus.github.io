@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     controls: false,
     nav: false,
     autoplay: true,
-    touch: false
+    autoplayButtonOutput: false,
+    touch: false,
+    speed: 600
   });
 });
