@@ -1,3 +1,7 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
 .image-slider {
     position: fixed;
     top: 0;
@@ -29,10 +33,11 @@
     margin-bottom: 10px;
     font-family: Overpass, sans-serif;
     font-weight: 700;
+    font-size: 22px;
 }
 
 .profile__subtitle {
-    font-family: Roboto, sans-serif;
+    font-size: 18px;
 }
 
 .profile .tns-nav button {
