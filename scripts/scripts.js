@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     items: 1,
     controls: false,
     nav: true,
-    mode: gallery,
+    mode: "gallery",
     navPosition: bottom,
     speed: 400
   });
