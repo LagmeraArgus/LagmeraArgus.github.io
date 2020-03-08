@@ -43,6 +43,7 @@ body {
 .profile .tns-nav {
     display: flex;
     align-items: flex-start;
+    margin-top: 10px;
 }
 
 .profile .tns-nav button {
