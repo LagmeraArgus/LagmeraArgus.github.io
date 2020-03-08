@@ -12,7 +12,7 @@ body {
 }
 
 .image-slider__image {
-    filter: blur(1px);
+    filter: blur(0.5px);
 }
 
 .profile {
