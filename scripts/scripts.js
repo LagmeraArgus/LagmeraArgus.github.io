@@ -13,8 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const pageSlider = tns({
     container: '.pages',
     items: 1,
-    controls: true,
+    controls: false,
     nav: true,
+    mode: gallery,
+    navPosition: bottom,
     speed: 400
   });
 });

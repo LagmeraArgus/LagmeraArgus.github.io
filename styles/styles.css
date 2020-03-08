@@ -34,3 +34,11 @@
 .profile__subtitle {
     font-family: Roboto, sans-serif;
 }
+
+.profile .tns-nav {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    border: 1px solid #E6E6FA;
+    background-color: #dcd0ff;
+}
