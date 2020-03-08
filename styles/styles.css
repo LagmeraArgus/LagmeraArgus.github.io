@@ -40,11 +40,21 @@ body {
     font-size: 18px;
 }
 
+.profile .tns-nav {
+    display: flex;
+    align-items: flex-start;
+}
+
 .profile .tns-nav button {
     padding: 0 !important;
+    margin-right: 6px;
     width: 6px;
     height: 6px;
     border-radius: 3px;
     border: 1px solid #E6E6FA;
     background-color: #dcd0ff;
+}
+
+.profile .tns-nav button:last-child {
+    margin-right: 0;
 }
