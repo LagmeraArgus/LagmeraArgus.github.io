@@ -41,7 +41,7 @@ body {
 }
 
 .profile .tns-nav button {
-    padding: 0;
+    padding: 0 !important;
     width: 6px;
     height: 6px;
     border-radius: 3px;
