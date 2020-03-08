@@ -8,7 +8,7 @@
 }
 
 .image-slider__image {
-    filter: blur(2px);
+    filter: blur(1px);
 }
 
 .profile {
@@ -25,14 +25,16 @@
     transform: translate(-50%, -50%);
 }
 
+.profile__header {
+    margin-bottom: 10px;
+}
+
 .profile__title {
-    flex: 1 0 100%;
     margin-bottom: 10px;
     font-family: Overpass, sans-serif;
     font-weight: 700;
 }
 
 .profile__subtitle {
-    flex: 1 0 100%;
     font-family: Roboto, sans-serif;
 }

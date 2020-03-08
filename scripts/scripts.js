@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var slider = tns({
+  const backgroundSlider = tns({
     container: '.image-slider',
     items: 1,
     controls: false,
@@ -8,5 +8,13 @@ document.addEventListener('DOMContentLoaded', function() {
     autoplayButtonOutput: false,
     touch: false,
     speed: 600
+  });
+
+  const pageSlider = tns({
+    container: '.pages',
+    items: 1,
+    controls: true,
+    nav: true,
+    speed: 400
   });
 });
