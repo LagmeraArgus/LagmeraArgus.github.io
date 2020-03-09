@@ -60,13 +60,13 @@ body {
     margin-right: 0;
 }
 
-.pages {
+.page {
     overflow: auto;
     max-height: 80vh;
     -ms-overflow-style: none;
 }
 
-.pages::-webkit-scrollbar {
+.page::-webkit-scrollbar {
     display: none;
 }
 
