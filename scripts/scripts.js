@@ -10,13 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
     speed: 600
   });
 
-  const pageSlider = tns({
-    container: '.pages',
-    items: 1,
-    controls: false,
-    nav: true,
-    mode: 'gallery',
-    navPosition: 'bottom',
-    speed: 400
-  });
+  document.querySelectorAll('.page-toggle').forEach(toggle => {
+    toggle.addEventListener('click', function(e) {
+      document.querySelectorAll('.page').forEach(page => page.classList.remove('is-active'));
+      document.querySelector(`#${this.dataset.target}`).classList.add('is-active');
+    })
+  })
 });

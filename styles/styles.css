@@ -40,31 +40,19 @@ body {
     font-size: 18px;
 }
 
-.profile .tns-nav {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 10px;
-}
-
-.profile .tns-nav button {
-    padding: 0 !important;
-    margin-right: 6px;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    border: 1px solid #E6E6FA;
-    background-color: #dcd0ff;
-}
-
-.profile .tns-nav button:last-child {
-    margin-right: 0;
-}
-
 .page {
     overflow: auto;
     max-height: 80vh;
     -ms-overflow-style: none;
     line-height: normal;
+    opacity: 0;
+    height: 0;
+    transition: opacity ease 0.3s;
+}
+
+.page .is-active {
+    opacity: 1;
+    height: auto;
 }
 
 .page::-webkit-scrollbar {

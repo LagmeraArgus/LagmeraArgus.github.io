@@ -32,11 +32,19 @@
           <h2 class="profile__subtitle">Thotting it up in Eorzea</h2>
         </header>
         <section class="pages">
-          <article class="page page--bio">
+          <nav class="pages__nav">
+            <button class="page-toggle" data-target="bio">Bio</button>
+            <button class="page-toggle" data-target="preferences">Likes/Dislikes</button>
+            <button class="page-toggle" data-target="story">Story</button>
+            <button class="page-toggle" data-target="relationships">Relationships</button>
+            <button class="page-toggle" data-target="ooc">OOC</button>
+            <button class="page-toggle" data-target="aether">Aether</button>
+          </nav>
+          <article class="page page--bio is-active" id="bio">
             <h2 class="page__title">Bio</h2>
             <p class="page__body">Lagmera Argus is a tall, curvaceous Viera of incredible passion and astonishingly little prudence. Lacking patience and moderation both, she lives life to its fullest at all moments, with her primary activities being flirting with random strangers, imbibing irresponsible quantities of mind-affecting beverages, and gambling. For better or worse, however, she does “mean well”, and truly tries to make people happy, albeit in her own clumsy way. Formerly an incredibly wealthy heiress, she still struggles with the concept of money (and learning when to stop spending it), and has grown all-too-used to living in the lap of luxury. Rejecting commitment wherever possible, engaging in myriad ill-advised trysts, she is nobody’s woman but her own. Since she began studying alchemy, she has worked to improve her focus to little success - she currently relies on intelligence potions in order to gain the clarity of thought required for the exacting discipline.</p>
           </article>
-          <article class="page page--preferences">
+          <article class="page page--preferences" id="preferences">
             <h2 class="page__title">Likes/Dislikes</h2>
             <section class="preference">
               <h3 class="preference__title">Likes</h3>
@@ -67,7 +75,7 @@
               </ul>
             </section>
           </article>
-          <article class="page page--story">
+          <article class="page page--story" id="story">
             <h2 class="page__title">Story</h2>
             <p class="page__body">Her mother, Jasali Argus, left Golmore Jungle while with child, being exiled due to spending too much time outside the jungle having a dalliance with a pirate captain, Solkeidin Gybalitarsyn. The man who gave her the child is unknown to Lagmera - her mother never revealed her true father.</p>
             <p class="page__body">Solkeidin took Jasali back to Limsa, the two of them getting wed whilst still aboard the ship, and Jasali gave birth to Lagmera in Limsa Lominsa. She and Solkeidin raised her, with Jasali quickly adopting Lominsan culture, resulting in Lagmera not being raised with any real traditional Viera customs.</p>
@@ -91,7 +99,7 @@
             <p class="page__body">As such, Kathrine ordered Lagmera to not leave the house without an armed guard, the entire company now at the forefront of a battle between the rogue alchemists of the Gilded Mortar, who sought to kidnap her, and the agents of the Brass Blades, who searched for the alchemist responsible for the poisonings. Lagmera soon found tasks to busy herself with back at home, however, with Kathrine lending her the funds necessary to purchase herself alchemist’s supplies of her own, and even hiring her a tutor from the alchemist’s guild to teach her the craft properly.</p>
             <p class="page__body">Currently, she still lingers in near house arrest, dependent on the time of others to see the outside world, with only alchemy to keep her from absolute boredom. Her sense of self-preservation is high enough for her to not risk going outside to stave off that boredom, for the moment at least, but there is no telling what may happen to the unfortunate Viera next.</p>
           </article>
-          <article class="page page--relationships">
+          <article class="page page--relationships" id="relationships">
             <h2 class="page__title">Relationships</h2>
             <section class="relationship">
               <h3 class="relationship__title">Kathrine Throne</h3>
@@ -130,13 +138,13 @@
               <p class="page__body">A former gladiator, Czethgar ran deep into debt and was sold to Lagmera as an indentured servant. She promptly freed him, then bid him to work for her as an employee, instead of as a slave. He loyally followed her, and the two had a quite amicable relationship, becoming lovers quickly, once her charms won him over.</p>
             </section>
           </article>
-          <article class="page page--ooc">
+          <article class="page page--ooc" id="ooc">
             <h2 class="page__title">OOC</h2>
             <p class="page__body">I am a long-time rper (been rping since 2007!), but somewhat new to Final Fantasy RP (or any MMO rp). I tend to write para to multi-para consistently, though I try to tone my wordiness down when in group settings or a faster-paced scene. I am generally able to get along with most anyone, and am not a huge stickler for lore (though I find characters that use the existing lore creatively to be my very favourites), but I do require full literacy from my partners to get any fun out of it. I enjoy weaving everything that happens into a single cohesive story, and try to avoid declaring things as “non-canon” unless absolutely needed. I work full-time, and have a variety of real-life obligations that prevent me from spending every day online, but I do try to be on frequently - and if I make a date to RP, I do my best to keep it. I’m also happy to share my Discord handle to those who want to reach me there (I love rping in Discord too, by the way - IM rp is what I’ve been doing for most my life, after all!)</p>
             <p class="page__body">I’m more than comfortable with ERP (for about a decade, that was my main sustenance), but nowadays I find myself craving long-term, slowly-changing stories about characters and how they grow to meet their conditions more than quickies. Chalk it up to getting old, maybe! However, I’m also open to any number of strange and depraved fetishes, thanks to being around the block so many times - I’ve seen little that truly disturbs me, and can have fun with pretty much anything that people bring to the table! At the same time, I also am quite happy keeping things entirely vanilla for those who find such perversions distasteful - I won’t tease you, promise!</p>
             <p class="page__body">All in all, feel free to reach out! I’m sure that you and I will get along!</p>
           </article>
-          <article class="page page--aether">
+          <article class="page page--aether" id="aether">
             <h2 class="page__title">Aetheric Signature</h2>
             <p class="page__body">If your character can see the aether of others, then this info may be of use!</p>
             <p class="page__body">Lagmera has a violently energetic aether, aspected strongly to lightning, and a bit less strongly towards water. It is chaotic, often flaring with her moods, but never dims for long.</p>
