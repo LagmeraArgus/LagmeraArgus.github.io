@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     autoplay: true,
     autoplayButtonOutput: false,
     touch: false,
-    speed: 1000,
+    speed: 8000,
     autoplayTimeout: 2000
   });
 
