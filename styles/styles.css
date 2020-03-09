@@ -230,15 +230,3 @@ body {
         width: 800px;
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .page {
-        width: 1000px;
-    }
-}
-
-@media screen and (min-width: 1920px) {
-    .page {
-        width: 1200px;
-    }
-}
