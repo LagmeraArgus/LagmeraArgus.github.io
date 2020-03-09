@@ -78,6 +78,17 @@ body {
     pointer-events: all;
 }
 
+.image-slider-nav__button,
+.image-slider-autoplay-toggle {
+    font-family: Overpass, sans-serif;
+    background-color: transparent;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: solid 1px #dcd0ff;
+    transition: color ease 0.4s;
+    color: #dcd0ff;
+}
+
 .profile {
     background-color: rgba(177, 156, 217, 0.6);
     padding: 40px;
