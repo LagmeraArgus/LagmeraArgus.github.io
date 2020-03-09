@@ -50,7 +50,7 @@ body {
     transition: opacity ease 0.3s;
 }
 
-.page .is-active {
+.page.is-active {
     opacity: 1;
     height: auto;
 }
