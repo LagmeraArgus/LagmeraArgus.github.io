@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  document.querySelector('.galler-mode-toggle').addEventListener('click', function(e) {
+  document.querySelector('.gallery-mode-toggle').addEventListener('click', function(e) {
     document.querySelector('.profile').classList.toggle('hidden');
   });
 });

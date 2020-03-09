@@ -116,6 +116,7 @@ body {
     position: absolute;
     top: 20px;
     right: 20px;
+    color: #dcd0ff;
 }
 
 .page-toggle:hover {
