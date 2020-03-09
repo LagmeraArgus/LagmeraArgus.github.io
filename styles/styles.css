@@ -135,7 +135,8 @@ body {
     background-color: #b19cd9;
     max-height: 0;
     overflow: hidden;
-    width: 500px;
+    width: 100%;
+    margin: 0 20px;
 }
 
 .page.is-active {
