@@ -104,6 +104,7 @@ body {
     background-color: #b19cd9;
     max-height: 0;
     overflow: hidden;
+    width: 500px;
 }
 
 .page.is-active {
@@ -145,7 +146,6 @@ body {
 
 .page__body {
     width: 100%;
-    max-width: 500px;
     margin-top: 10px;
 }
 
@@ -184,25 +184,25 @@ body {
 }
 
 @media screen and (min-width: 767px) {
-    .page__body {
-        max-width: 700px;
+    .page {
+        width: 700px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .page__body {
-        max-width: 800px;
+        width: 800px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .page__body {
-        max-width: 1000px;
+        width: 1000px;
     }
 }
 
 @media screen and (min-width: 1920px) {
     .page__body {
-        max-width: 1200px;
+        width: 1200px;
     }
 }

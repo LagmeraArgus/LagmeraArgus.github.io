@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     container: '.image-slider',
     items: 1,
     controls: false,
-    nav: false,
+    nav: true,
     autoplay: true,
     autoplayButtonOutput: false,
     touch: false,
