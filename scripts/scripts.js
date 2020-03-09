@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav: true,
     navContainer: '.image-slider-nav',
     autoplay: true,
-    autoplayButtonOutput: false,
+    autoplayButton: '.image-slider-autoplay-toggle',
     touch: false,
     speed: 10000,
     autoplayTimeout: 12000
