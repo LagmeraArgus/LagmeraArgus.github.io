@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     autoplayButtonOutput: false,
     touch: false,
     speed: 10000,
-    autoplayTimeout: 0
+    autoplayTimeout: 12000
   });
 
   document.querySelectorAll('.page-toggle').forEach(toggle => {
