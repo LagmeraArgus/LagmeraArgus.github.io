@@ -124,7 +124,6 @@ body {
 
 .page {
     border-radius: 20px;
-    -ms-overflow-style: none;
     line-height: normal;
     opacity: 0;
     transition: opacity ease 0.8s, color ease 0.6s;
@@ -147,10 +146,6 @@ body {
 
 .page--preferences .page__title {
     text-align: center;
-}
-
-.page::-webkit-scrollbar {
-    display: none;
 }
 
 .preferences {
