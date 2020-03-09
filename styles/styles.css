@@ -59,3 +59,38 @@ body {
 .profile .tns-nav button:last-child {
     margin-right: 0;
 }
+
+.page__title {
+    font-family: Overpass, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.page__body {
+    width: 100%;
+    max-width: 500px;
+}
+
+@media screen and (min-width: 767px) {
+    .page__body {
+        max-width: 700px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .page__body {
+        max-width: 800px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .page__body {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .page__body {
+        max-width: 1200px;
+    }
+}
