@@ -24,6 +24,11 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: opacity ease 1s;
+}
+
+.profile.hidden {
+    opacity: 0;
 }
 
 .profile__header {
@@ -99,6 +104,18 @@ body {
     border-radius: 8px;
     border: solid 1px #dcd0ff;
     transition: color ease 0.4s;
+}
+
+.gallery-mode-toggle {
+    font-family: Overpass, sans-serif;
+    background-color: transparent;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: solid 1px #dcd0ff;
+    transition: color ease 0.4s;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .page-toggle:hover {

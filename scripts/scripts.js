@@ -15,6 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
     toggle.addEventListener('click', function(e) {
       document.querySelectorAll('.page').forEach(page => page.classList.remove('is-active'));
       document.querySelector(`#${this.dataset.target}`).classList.add('is-active');
-    })
-  })
+    });
+  });
+
+  document.querySelector('.galler-mode-toggle').addEventListener('click', function(e) {
+    document.querySelector('.profile').classList.toggle('hidden');
+  });
 });
