@@ -64,6 +64,7 @@ body {
     overflow: auto;
     max-height: 80vh;
     -ms-overflow-style: none;
+    line-height: normal;
 }
 
 .page::-webkit-scrollbar {
@@ -79,6 +80,7 @@ body {
 .page__body {
     width: 100%;
     max-width: 500px;
+    margin-top: 10px;
 }
 
 @media screen and (min-width: 767px) {
