@@ -177,6 +177,11 @@ body {
     margin-top: 10px;
 }
 
+.page--relationships .page-body:last-child,
+.page--story .page-body:last-child {
+    margin-bottom: 10px;
+}
+
 .page-toggle {
     font-family: Overpass, sans-serif;
     background-color: transparent;
