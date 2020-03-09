@@ -67,13 +67,10 @@ body {
     display: none;
 }
 
-.page--preferences {
+.preferences {
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-}
-
-.page--preferences.is-active {
-    display: flex;
 }
 
 .page__title {
