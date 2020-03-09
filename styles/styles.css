@@ -21,47 +21,47 @@ body {
 }
 
 .image-slider__image--1 {
-    background-image: url("assets/lagmera-begging.png");
+    background-image: url("/assets/lagmera-begging.png");
 }
 
 .image-slider__image--2 {
-    background-image: url("assets/lagmera-drunk.png");
+    background-image: url("/assets/lagmera-drunk.png");
 }
 
 .image-slider__image--3 {
-    background-image: url("assets/lagmera-feasting.png");
+    background-image: url("/assets/lagmera-feasting.png");
 }
 
 .image-slider__image--4 {
-    background-image: url("assets/lagmera-in-pool.png");
+    background-image: url("/assets/lagmera-in-pool.png");
 }
 
 .image-slider__image--5 {
-    background-image: url("assets/lagmera-and-aly.png");
+    background-image: url("/assets/lagmera-and-aly.png");
 }
 
 .image-slider__image--6 {
-    background-image: url("assets/lagmera-lounging.png");
+    background-image: url("/assets/lagmera-lounging.png");
 }
 
 .image-slider__image--7 {
-    background-image: url("assets/lagmera-playing.png");
+    background-image: url("/assets/lagmera-playing.png");
 }
 
 .image-slider__image--8 {
-    background-image: url("assets/lagmera-stealing.png");
+    background-image: url("/assets/lagmera-stealing.png");
 }
 
 .image-slider__image--9 {
-    background-image: url("assets/lagmera-at-work.png");
+    background-image: url("/assets/lagmera-at-work.png");
 }
 
 .image-slider__image--10 {
-    background-image: url("assets/lagmera-successful.png");
+    background-image: url("/assets/lagmera-successful.png");
 }
 
 .image-slider__image--11 {
-    background-image: url("assets/lagmera-and-kathrine.png");
+    background-image: url("/assets/lagmera-and-kathrine.png");
 }
 
 .profile {
