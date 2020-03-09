@@ -64,6 +64,7 @@ body {
     font-family: Overpass, sans-serif;
     font-weight: 600;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .page__body {
@@ -75,7 +76,7 @@ body {
 .page-toggle {
     font-family: Overpass, sans-serif;
     background-color: transparent;
-    padding: 8px;
+    padding: 4px;
     border-radius: 8px;
     border: solid 1px #dcd0ff;
     transition: color ease 0.4s;
