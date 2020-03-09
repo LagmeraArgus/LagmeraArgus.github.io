@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   document.querySelector('.gallery-mode-toggle').addEventListener('click', function(e) {
-    document.querySelector('.profile').classList.toggle('hidden');
+    document.querySelector('.profile').classList.toggle('gallery-mode');
+    document.querySelector('.image-slider-controls').classList.toggle('gallery-mode');
   });
 });

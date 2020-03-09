@@ -64,6 +64,14 @@ body {
     background-image: url("/assets/lagmera-and-kathrine.png");
 }
 
+.image-slider-controls {
+    opacity: 0;
+}
+
+.image-slider-nav.gallery-mode {
+    opacity: 1;
+}
+
 .profile {
     background-color: rgba(177, 156, 217, 0.6);
     padding: 40px;
@@ -75,7 +83,7 @@ body {
     transition: opacity ease 1s;
 }
 
-.profile.hidden {
+.profile.gallery-mode {
     opacity: 0;
 }
 
