@@ -67,6 +67,12 @@ body {
     display: none;
 }
 
+.page--preferences {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .page__title {
     font-family: Overpass, sans-serif;
     font-weight: 600;
@@ -77,6 +83,7 @@ body {
     font-family: Overpass, sans-serif;
     font-weight: 600;
     font-size: 18px;
+    margin-top: 25px;
 }
 
 .page__body {
@@ -96,6 +103,14 @@ body {
 
 .page-toggle:hover {
     color: #f3ffd0;
+}
+
+.preference {
+    flex-basis: calc(50% - 15px);
+}
+
+.preference__list-item {
+    margin-top: 5px;
 }
 
 @media screen and (min-width: 767px) {
