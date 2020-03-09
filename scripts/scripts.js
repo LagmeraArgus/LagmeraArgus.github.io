@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     items: 1,
     controls: false,
     nav: true,
+    navContainer: '.image-slider-nav',
     autoplay: true,
     autoplayButtonOutput: false,
     touch: false,
