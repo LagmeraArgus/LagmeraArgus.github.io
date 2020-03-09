@@ -50,6 +50,7 @@ body {
     height: 0;
     transition: opacity ease 0.8s, color ease 0.6s;
     color: #f3ffd0;
+    background-color: #b19cd9;
 }
 
 .page.is-active {
