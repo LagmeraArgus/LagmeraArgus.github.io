@@ -76,8 +76,13 @@ body {
     font-family: Overpass, sans-serif;
     background-color: transparent;
     padding: 8px;
-    border-radius: 50%;
+    border-radius: 8px;
     border: solid 1px #dcd0ff;
+    transition: color ease 0.4s;
+}
+
+.page-toggle:hover {
+    color: #f3ffd0;
 }
 
 @media screen and (min-width: 767px) {
