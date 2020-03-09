@@ -53,6 +53,7 @@ body {
     color: #f3ffd0;
     background-color: #b19cd9;
     margin-top: 20px;
+    padding: 16px;
 }
 
 .page.is-active {
