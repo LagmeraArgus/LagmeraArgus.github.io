@@ -78,6 +78,10 @@ body {
     pointer-events: all;
 }
 
+.image-slider-nav {
+    display: inline-block;
+}
+
 .image-slider-nav__button,
 .image-slider-autoplay-toggle {
     font-family: Overpass, sans-serif;
