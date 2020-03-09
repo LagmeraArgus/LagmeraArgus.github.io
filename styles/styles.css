@@ -82,11 +82,13 @@ body {
 .image-slider-autoplay-toggle {
     font-family: Overpass, sans-serif;
     background-color: transparent;
-    padding: 4px 8px;
-    border-radius: 8px;
+    padding: 0 6px;
+    border-radius: 6px;
     border: solid 1px #dcd0ff;
     transition: color ease 0.4s;
     color: #dcd0ff;
+    display: inline-block;
+    margin-right: 6px;
 }
 
 .profile {
