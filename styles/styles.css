@@ -48,7 +48,7 @@ body {
     line-height: normal;
     opacity: 0;
     height: 0;
-    transition: opacity ease 0.6s, color ease 0.8s;
+    transition: opacity ease 0.8s, color ease 0.6s;
     color: #f3ffd0;
 }
 
