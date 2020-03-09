@@ -68,6 +68,10 @@ body {
     padding: 16px;
 }
 
+.page--preferences .page__title {
+    text-align: center;
+}
+
 .page::-webkit-scrollbar {
     display: none;
 }
