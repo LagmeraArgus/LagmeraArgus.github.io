@@ -131,6 +131,10 @@ body {
     flex-basis: calc(50% - 15px);
 }
 
+.preference .page__title {
+    text-align: left;
+}
+
 .preference__item {
     margin-top: 5px;
 }
