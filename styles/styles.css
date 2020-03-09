@@ -48,10 +48,12 @@ body {
     line-height: normal;
     opacity: 0;
     height: 0;
-    transition: opacity ease 0.6s;
+    transition: opacity ease 0.6s, color ease 0.8s;
+    color: #f3ffd0;
 }
 
 .page.is-active {
+    color: #222;
     opacity: 1;
     height: auto;
 }
@@ -76,7 +78,7 @@ body {
 .page-toggle {
     font-family: Overpass, sans-serif;
     background-color: transparent;
-    padding: 4px;
+    padding: 4px 8px;
     border-radius: 8px;
     border: solid 1px #dcd0ff;
     transition: color ease 0.4s;
