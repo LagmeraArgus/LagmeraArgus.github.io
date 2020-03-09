@@ -61,7 +61,13 @@ body {
 }
 
 .pages {
-    max-height: 90vh;
+    overflow: auto;
+    max-height: 80vh;
+    -ms-overflow-style: none;
+}
+
+.pages::-webkit-scrollbar {
+    display: none;
 }
 
 .page__title {
