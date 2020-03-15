@@ -64,6 +64,14 @@ body {
     background-image: url("/assets/lagmera-and-kathrine.png");
 }
 
+.image-slider__image--12 {
+    background-image: url("/assets/lagmera-and-xapa.png");
+}
+
+.image-slider__image--13 {
+    background-image: url("/assets/lagmera-and-xapa-sitting.png");
+}
+
 .image-slider-controls {
     position: absolute;
     opacity: 0;
