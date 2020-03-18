@@ -97,10 +97,16 @@ body {
     padding: 0 6px;
     border-radius: 6px;
     border: solid 1px #dcd0ff;
-    transition: color ease 0.4s;
+    transition: color ease 0.4s, font-size ease 0.4s;
     color: #dcd0ff;
     display: inline-block;
     margin-right: 6px;
+}
+
+.image-slider-nav__button.tns-active {
+    border-width: 2px;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .profile {
@@ -210,7 +216,10 @@ body {
     color: #dcd0ff;
 }
 
-.page-toggle:hover {
+.page-toggle:hover,
+.gallery-mode-toggle:hover,
+.image-slider-nav__button:hover,
+.image-slider-autoplay-toggle:hover {
     color: #f3ffd0;
 }
 
