@@ -103,7 +103,7 @@ body {
     margin-right: 6px;
 }
 
-.image-slider-nav__button.tns-active {
+.image-slider-nav__button.tns-nav-active {
     border-width: 2px;
     font-weight: 700;
     font-size: 20px;
