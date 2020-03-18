@@ -87,20 +87,28 @@ body {
 }
 
 .image-slider-nav {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
 }
 
 .image-slider-nav__button,
 .image-slider-autoplay-toggle {
     font-family: Overpass, sans-serif;
     background-color: transparent;
-    padding: 0 6px;
     border-radius: 6px;
     border: solid 1px #dcd0ff;
     transition: color ease 0.4s, font-size ease 0.4s;
     color: #dcd0ff;
     display: inline-block;
     margin-right: 6px;
+}
+
+.image-slider-autoplay-toggle {
+    padding: 0 6px;
+}
+
+.image-slider-nav__button {
+    padding: 6px 6px 0;
 }
 
 .image-slider-nav__button.tns-nav-active {
