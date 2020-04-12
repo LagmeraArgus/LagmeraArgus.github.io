@@ -72,6 +72,10 @@ body {
     background-image: url("/assets/lagmera-and-xapa-sitting.png");
 }
 
+.image-slider__image--14 {
+    background-image: url("/assets/lagmera-with-potions.png");
+}
+
 .image-slider-controls {
     position: absolute;
     opacity: 0;
