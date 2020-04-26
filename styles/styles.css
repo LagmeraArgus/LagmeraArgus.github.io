@@ -77,15 +77,15 @@ body {
 }
 
 .image-slider__image--15 {
-    background-image: url("/assets/lagmera-before-bakery.png.png");
+    background-image: url("/assets/lagmera-before-bakery.png");
 }
 
 .image-slider__image--16 {
-    background-image: url("/assets/lagmera-in-bakery.png.png");
+    background-image: url("/assets/lagmera-in-bakery.png");
 }
 
 .image-slider__image--17 {
-    background-image: url("/assets/lagmera-choosing-pastries.png.png");
+    background-image: url("/assets/lagmera-choosing-pastries.png");
 }
 
 .image-slider-controls {
