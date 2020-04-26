@@ -76,6 +76,18 @@ body {
     background-image: url("/assets/lagmera-with-potions.png");
 }
 
+.image-slider__image--15 {
+    background-image: url("/assets/lagmera-before-bakery.png.png");
+}
+
+.image-slider__image--16 {
+    background-image: url("/assets/lagmera-in-bakery.png.png");
+}
+
+.image-slider__image--17 {
+    background-image: url("/assets/lagmera-choosing-pastries.png.png");
+}
+
 .image-slider-controls {
     position: absolute;
     opacity: 0;
