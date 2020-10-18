@@ -17,7 +17,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 
 .image-slider__image--1 {
