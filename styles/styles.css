@@ -81,12 +81,13 @@ body {
 }
 
 .image-slider__image--16 {
-    background-image: url("/assets/sunna sippin.png");
+    background-image: url("/assets/sunna-sipping.png");
 }
 
 .image-slider__image--17 {
     background-image: url("/assets/sunna blue mage.png");
-    background-position: top;
+    background-size: contain;
+    background-color: black;
 }
 
 .image-slider-controls {
