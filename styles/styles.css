@@ -82,12 +82,16 @@ body {
 
 .image-slider__image--16 {
     background-image: url("/assets/sunna-sipping.png");
+    background-size: contain;
+    background-color: black;
+    background-repeat: no-repeat;
 }
 
 .image-slider__image--17 {
     background-image: url("/assets/sunna blue mage.png");
     background-size: contain;
     background-color: black;
+    background-repeat: no-repeat;
 }
 
 .image-slider-controls {
