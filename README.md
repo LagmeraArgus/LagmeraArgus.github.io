@@ -1,2 +1,2 @@
 # LagmeraArgus.github.io
-Lagmera Argus's FFXIV Profile!
+Sunna Argus's FFXIV Profile!
