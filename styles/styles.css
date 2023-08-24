@@ -255,8 +255,9 @@ body {
     margin-top: 5px;
 }
 
-.shop {
-    list-style-type: circle;
+.item__title {
+    font-weight: 600;
+    margin: 6px 0;
 }
 
 @media screen and (min-width: 767px) {
