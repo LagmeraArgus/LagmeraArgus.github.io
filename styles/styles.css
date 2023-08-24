@@ -255,6 +255,10 @@ body {
     margin-top: 5px;
 }
 
+.shop {
+    list-style-type: circle;
+}
+
 @media screen and (min-width: 767px) {
     .page {
         width: 700px;
